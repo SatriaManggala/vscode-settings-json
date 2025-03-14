@@ -1,8 +1,8 @@
 /* Code comment style */
 .mtk3 {
-    font-family: 'Monaspace Radon', monospace !important;
+    font-family: 'JetBrains Mono', monospace !important;
     font-style: italic !important;
-    color: #008c7d !important;
+    /*color: #008c7d !important;*/
 }
 
 /* *:not() {
@@ -17,12 +17,13 @@
 
 /* Match Text */
 .currentFindMatchInline {
-    background: #000 !important;
+    /*background: #000 !important;*/
 }
 
 /* Side bar */
 .part.sidebar {
     box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+	line-height=1;
 }
 
 /* .part.sidebar.right > div > div > div:nth-child(1) {
@@ -31,7 +32,7 @@
 
 /* File Explorer Selected Item */
 .monaco-list.list_id_1 .monaco-list-row.selected {
-    background-color: #4f5971 !important;
+    /*background-color: #4f5971 !important;*/
     opacity: 1 !important;
     border-top: 1px #727b90 solid;
     border-bottom: 1px #727b90 solid;
@@ -44,7 +45,7 @@
 
 /* List item label name */
 .monaco-list.list_id_1 .monaco-list-row.selected .label-name {
-    color: #fff !important;
+    /*color: #fff !important;*/
     opacity: 1 !important;
 }
 
@@ -57,15 +58,17 @@
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row
 .monaco-icon-label .label-name {
-    font-family: 'Geist Mono', monospace !important;
-    font-size: 14px !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 13px !important;
     font-weight: 400 !important;
-    color: #FFF !important;
+    /*color: #FFF !important;*/
+	line-height=1;
 }
 
 .explorer-item-edited {
-  font-family: Geist Mono !important;
-  font-size: 14px !important;
+  font-family: JetBrains Mono !important;
+  font-size: 13px !important;
+  line-height=1;
 }
 
 /* .monaco-workbench .codicon[class*=codicon-] {
@@ -99,9 +102,10 @@
 }
 .composite.title h2 {
     font-weight: bold !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-transform: uppercase;
-    color: #bc9abc !important;
+    /*color: #bc9abc !important;*/
+	font-family: 'JetBrains Mono' !important;
 }
 
 /* .composite.title h2::before {
@@ -125,7 +129,7 @@
 .monaco-hover {
     box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
     /* padding: 10px !important; */
-    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+    /*background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;*/
     backdrop-filter: blur(3px) !important;
     border-radius: 16px !important;
     border: none !important;
@@ -156,9 +160,9 @@
 
 /* Search Label */
 .search-label {
-    font-family: 'Geist Mono' !important;
+    font-family: 'JetBrains Mono' !important;
     font-size: 14px !important;
-    color: #fff;
+    /*color: #fff;*/
     display: block;
 }
 
@@ -190,7 +194,7 @@
     box-shadow: 0px 8px 32px rgba(0, 0, 0, .35) !important;
     /* border: 4px solid rgba(24, 135, 129, .35) !important; */
     padding: 10px 10px 18px 10px !important;
-    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+    /*background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;*/
     /* background: #3c3c50 !important; */
     backdrop-filter: blur(3px) !important;
     border-radius: 20px !important;
@@ -223,7 +227,7 @@
     padding: 16px !important;
     border: none !important;
     /* background-color: rgba(34, 34, 34, .40) !important; */
-    font-family: "Geist Mono" !important;
+    font-family: "JetBrains Mono" !important;
     font-size: 16px !important;
     margin-bottom: 16px !important;
 }
@@ -235,12 +239,12 @@
     background: rgba(0, 0, 0, .15);
     top: 0;
     left: 0;
-    backdrop-filter: blur(8px);
+    /*backdrop-filter: blur(0px);*/
 }
 
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
-    color: rgba(255, 255, 255, .3) !important;
+    /*color: rgba(255, 255, 255, .3) !important;*/
 }
 
 /* Container that holds the VS Code home icon. */
